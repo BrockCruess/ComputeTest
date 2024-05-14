@@ -1,5 +1,12 @@
 const { Client } = require('discord.js');
-require('dotenv').config(); // Load environment variables from .env file
+const dotenv = require('dotenv');
+const fs = require('fs');
+
+// Load environment variables from .env file
+const envConfig = dotenv.parse(fs.readFileSync('.env'));
+for (const k in envConfig) {
+  process.env[k] = envConfig[k];
+}
 
 // Create a new Discord client
 const client = new Client();
