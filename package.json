@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot test that listens for messages in a specific channel and responds with 'Pass'.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0"
+  }
+}
