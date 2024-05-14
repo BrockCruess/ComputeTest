@@ -4,7 +4,7 @@
   "description": "A Discord bot test that listens for messages in a specific channel and responds with 'Pass'.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "run": "node bot.js"
   },
   "author": "me",
   "license": "MIT",
